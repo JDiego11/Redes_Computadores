@@ -1,0 +1,50 @@
+a. Target Ip: 10.10.10.1, Ip correspondiente a la entrada Fa 0/0 del router. Pregunta por la MAC correspondiente a dicha Ip ya que es la dirección MAC de la puerta de enlace.
+
+b. * Tipo: DNS
+	* Dirección IP Origen: 10.10.10.2 -> Estación cliente
+	  Dirección IP Destino: 20.20.20.3 -> Estación DNS Server
+	* Protocolo de nivel de transporte: UDP
+	* Puerto Origen: 1025
+	  Puerto Destino: 53
+	* NAME: www.servidor.com
+	* Obtener la dirección IP del servidor que aloja dicha dirección.
+
+c. * Dirección Destino: 10.10.10.2
+	  Dirección Origen: 20.20.20.3
+	* Protocolo de transporte: UDP
+	* Puerto Origen: 53
+	  Puerto Destino: 1025
+	* ADDRESS: 20.20.20.2
+	* Entregar la dirección IP.
+
+d. Dibujo 1
+
+e. Dibujo 2
+
+f. * Fueron capturados 2 Datagramas (El enter solo y el apellido)
+	* Datagrama 1
+		Puerto Origen:	61267
+		Puerto Destino:	9012
+		Longitud:	9
+		CheckSum:	0x996e
+	  Datagrama 2
+		Puerto Origen:	61267
+		Puerto Destino:	9012
+		Longitud:	16
+		CheckSum:	0x9975
+	* Sí coincide 8 + 7 + 1 = 16
+
+g. * Se capturaron 6 segmentos de los cuales, los 3 primeros pertenecen a la fase de establecimiento, los dos siguientes a la fase de mantenimiento y el final a la fase de finalización.
+	* Primer Segmento
+	  Puerto Origen:	10363
+	  Puerto Destino:	9012
+	  # SEQ:		1997244117
+	  # ACK:		1202782010
+	  Estado Flags:		SYN 0, ACK 1, PSH 1, END 0
+	  Segundo Segmento
+	  Puerto Origen:	9012
+	  Puerto Destino:	10363
+	  # SEQ:		1202782010
+	  # ACK:		1997244125
+	  Estado Flags:		SYN 0, ACK 1, PSH 0, END 0
+	* Sí

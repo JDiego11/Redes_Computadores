@@ -1,0 +1,21 @@
+Casos de estudio:
+
+1. Interconexión entre dos PCs mediante cable cruzado usando direccionamiento de red X.X.X.X/30. La dirección de red será 	indicada en el momento de iniciar la prueba (por ejemplo: 192.168.123.168/30). La prueba es exitosa al verificarse 	conectividad entre las dos estaciones mediante la utilidad PING.
+
+2. Interconexión de 3 PCs mediante un HUB usando direccionamiento de red X.X.X.X/29. La dirección de red será indicada en 	el momento de iniciar la prueba (por ejemplo: 172.16.10.168/29). La prueba es exitosa al verificarse conectividad 	entre todas las estaciones mediante la utilidad PING.
+
+3. Interconexión de 3 PCs mediante un SWITCH usando direccionamiento de red X.X.X.X/28. La dirección de red será indicada 	en el momento de iniciar la prueba (por ejemplo: 10.20.30.80/28). La prueba es exitosa al verificarse conectividad 	entre todas las estaciones mediante la utilidad PING.
+
+4. Interconexión de 3 PCs mediante un ACCESSPOINT usando direccionamiento de red X.X.X.X/27. Este caso exige instalar en 	cada PC una interfaz WiFi (WPN300N). La dirección de red será indicada en el momento de iniciar la prueba (por 	ejemplo:  192.168.30.192/27). La prueba es exitosa al verificarse conectividad entre todas las estaciones mediante 	la utilidad PING.
+
+5. Interconexión de 1 PCs con interfaz FastEthernet con 1 PC con interfaz WiFi (WPN300N) a través de un ACCESSPOINT, 	usando direccionamiento de red X.X.X.X/30. La dirección de red será indicada en el momento de iniciar la prueba 	(por ejemplo:   192.168.123.168/30). La prueba es exitosa al verificarse conectividad entre las dos estaciones 	mediante la utilidad PING.
+
+6. Interconexión de 2 PCs con interfaz FastEthernet con 2 PC con interfaz WiFi (WPN300N). Los dispositivos de red a 	utilizar, serán definidos por el estudiante. Sin embargo, el direccionamiento IP deberá utilizar la máscara de red 	/26. La prueba es exitosa al verificarse conectividad entre todas las estaciones mediante la utilidad PING.
+
+7. Interconexión de 2 PCs mediante UN SOLO ROUTER. El direccionamiento a utilizar será privado en el rango 10.0.0.0 a 	10.255.255.255 utilizando como máscara de red /24. La prueba es exitosa al verificarse conectividad entre las dos 	estaciones mediante la utilidad PING. OJO,  cada PC se encuentre en un segmento de red diferente, por lo tanto se 	deben tener 2 segmentos de red diferentes, un segmento de red por cada interfaz del router.
+
+8. Interconexión de 3 PCs mediante UN SOLO ROUTER. El direccionamiento a utilizar será privado en el rango 172.16.0.0 a 	172.31.255.255 utilizando como máscara de red /28. La prueba es exitosa al verificarse conectividad entre todas 	las estaciones mediante la utilidad PING. OJO,  cada PC se encuentre en un segmento de red diferente, por lo tanto 	se deben tener 3 segmentos de red diferentes, un segmento de red por cada interfaz del router.
+
+9. Interconexión de 2 PCs mediante DOS ROUTERS interconectados a través de un enlace serial. Cada PC deberá estar 	conectado a un enrutador diferente. El direccionamiento a utilizar será privado en el rango 192.168.0.0 a 	192.168.255.255, utilizando como máscara de red /30. La prueba es exitosa al verificarse conectividad entre las 	dos estaciones mediante la utilidad PING.
+
+10. Interconexión de 2 PCs mediante DOS ROUTERS interconectados a través de un cable cruzado. Cada PC deberá estar 	conectado a un enrutador diferente. El direccionamiento a utilizar será privado en el rango 192.168.0.0 a 	192.168.255.255, utilizando como máscara de red /24. La prueba es exitosa al verificarse conectividad entre las 	dos estaciones mediante la utilidad PING.
